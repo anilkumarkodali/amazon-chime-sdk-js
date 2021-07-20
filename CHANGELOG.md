@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [Documentation] Update priority based downlink policy guide.
 - Lookup `groupId` from device cache instead of directly from media stream when selecting input device.
+- Stop activeDevice video track before selecting a new device to prevent NotReadableError when calling getUserMedia for a a new video input device
 
 ### Removed
 
